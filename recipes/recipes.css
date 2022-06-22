@@ -60,3 +60,9 @@ div {
     font-weight: bold;
     font-size: 25px;
 }
+
+#header1.head1,
+#header2.head2,
+#header3.head3 {
+    font-style: italic;
+}
