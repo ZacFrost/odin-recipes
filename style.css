@@ -1,34 +1,83 @@
+.header,
 .image,
-.header {
-    text-align: center;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-img {
+#chef {
     height: auto;
     width: 470px;
-}
-
-div ul li {
-    text-align: center;
-    color: crimson;
+    border-radius: 40px;
 }
 
 .header {
-    color: darkviolet;
-    font-family: Helvetica, sans-serif;
+    color: white;
+    font-family: Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
+    background-color: dodgerblue;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    column-gap: 3px;
+}
+
+.image {
+    justify-content: center;
+    margin-bottom: 42px;
 }
 
 #logo {
-    height: auto;
-    width: 33px;
+    height: 35px;
+    width: 35px;
 }
 
-strong {
-    color: yellow;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-ul {
-    list-style-type: none;
+.list {
+    background-color: crimson;
+}
+
+.cards {
+    column-gap: 99px;
+    justify-content: center;
+}
+
+.tasty {
+    background-color: yellow;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.spicy {
+    background-color: orangered;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.sweet {
+    background-color: hotpink;
+    width: 110px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.tasty_img {
+    width: 110px;
+    border-radius: 5px;
+}
+
+.spicy_img {
+    width: 110px;
+    border-radius: 5px;
+}
+
+.sweet_img {
+    width: 110px;
+    border-radius: 5px;
 }
